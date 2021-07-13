@@ -30,5 +30,5 @@ class StructuredTasks(OverView):
 
 if __name__ == '__main__':
     ST = StructuredTasks("chrome", "https://console.cloud.tencent.com/cii")
-    ST.login_cii("287132798", "A18782269156")
+    # ST.login_cii("287132798", "A18782269156")
     ST.establish_task("qta")
